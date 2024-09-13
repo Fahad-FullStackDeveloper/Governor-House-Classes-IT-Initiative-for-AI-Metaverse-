@@ -1,0 +1,86 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+    margin: 0;
+    padding: 20px;
+}
+
+.resume-container {
+    max-width: 800px;
+    margin: 0 auto;
+    background: #F2F7A1;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.personal-info {
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.profile-pic {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+.contact-info {
+    font-size: 1.2em;
+}
+
+h1 {
+    margin: 0;
+    font-size: 2em;
+    color: #0B666A;
+}
+
+h2 {
+    font-size: 1.8em;
+    margin-bottom: 10px;
+    color: #071952;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+button {
+    background-color: #DA0C81;
+    color: white;
+    border: none;
+    padding: 4px 8px;
+    border-radius: 10px 25px 10px 25px;
+    cursor: pointer;
+    font-size: 0.8em;
+}
+
+button:hover {
+    background-color: #F2F7A1;
+    color: black;
+}
+
+.section {
+    margin-bottom: 20px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    background-color: #4C6793;
+    color: white;
+    display: inline-block;
+    padding: 8px 15px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    border-radius: 20px;
+}
+
+p {
+    line-height: 1.6;
+}
