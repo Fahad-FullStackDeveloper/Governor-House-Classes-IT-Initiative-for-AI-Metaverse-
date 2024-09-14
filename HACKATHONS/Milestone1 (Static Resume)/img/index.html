@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Static Resume</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="resume-container">
+        <!-- Personal Info -->
+        <div class="personal-info">
+            <img src="./img/4d134b0.jpg" alt="Profile Picture" class="profile-pic">
+            <div class="contact-info">
+                <h1 id="name"><u>Muhammad Fahad Khakwani</u></h1>
+                <p id="contact"><b>Email :</b> fahadyousufkhakwani@gmail.com | Mobile : <b>0092-312-9092620</b></p>
+                <p id="social-links">LinkedIn: <a href="https://www.linkedin.com/in/fahad-khakwani-3aa655265/" target= "_main">Fahad Khakwani(linkedin.com)</a> | GitHub:<a href="https://github.com/Fahad-FullStackDeveloper" target= "_main">Fahad-FullStackDeveloper(github.com)</a> </p>
+            </div>
+        </div>
+
+        <!-- Sections with Show/Hide Buttons -->
+        <div class="section">
+            <h2>Personal Information
+                <button onclick="toggleSection('personal-info-details')">Hide</button>
+            </h2>
+            <div id="personal-info-details">
+                <b>Date of Birth :</b>  August 19, 1989</p>
+                <p><b>Address :</b>  Kufa St, Karachi, Sindh-Pakistan</p>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>Education
+                <button onclick="toggleSection('education-details')">Hide</button>
+            </h2>
+            <div id="education-details">
+                <p>GIAIC University at Governor House(2023-2025)</p>
+                <p><pre>(Certification from University of Karachi)</pre></p>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>Skills
+                <button onclick="toggleSection('skills-details')">Hide</button>
+            </h2>
+            <div id="skills-details">
+                <ul>
+                    <li>HTML | CSS | JavaScript | TypeScript</li>
+                    <li>React JS</li>
+                    <li>Tailwind</li>
+                    <li>Node JS</li>
+                    <li>Next JS</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>Work Experience 
+                <button onclick="toggleSection('work-details')">Hide</button>
+            </h2>
+            <div id="work-details">
+                <!-- Full-Stack Developer Experience -->
+                <h3>Full-Stack Developer, XYZ Solutions</h3>
+                <p>Sep 2022 - Present</p>
+                <ul>
+                    <li>Developed end-to-end web applications using Next.js, React.js, TypeScript for frontend, and Node.js for backend services.</li>
+                    <li>Implemented RESTful APIs and integrated third-party services such as payment gateways and authentication systems.</li>
+                    <li>Leveraged Tailwind CSS for designing responsive and efficient user interfaces, improving user experience by 30%.</li>
+                    <li>Optimized database queries and server performance, reducing API response time by 25%.</li>
+                    <li>Deployed and managed applications using cloud services like AWS and CI/CD pipelines for continuous deployment.</li>
+                </ul>
+        
+                <!-- Freelancing Experience -->
+                <h3>Freelance Web & App Developer</h3>
+                <p>June 2022 - Currently Working</p>
+                <ul>
+                    <li>Worked on various freelance projects, building responsive, SEO-friendly websites for clients using HTML, CSS, JavaScript, and React.js.</li>
+                    <li>Collaborated with startups to develop custom web solutions, including e-commerce platforms, using Next.js and Node.js.</li>
+                    <li>Provided clients with scalable solutions, integrating Stripe for payments and social media logins with OAuth.</li>
+                    <li>Ensured cross-browser compatibility, high performance, and optimal SEO for client websites, resulting in improved search engine rankings.</li>
+                    <li>Consulted with clients on technical architecture, user experience design, and backend strategies for sustainable development.</li>
+                </ul>
+            </div>
+        </div>
+        
+    </div>
+
+    <script src="app.js"></script>
+</body>
+
+</html>
